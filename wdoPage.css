@@ -1,0 +1,105 @@
+* {
+  background-color: #1d1d21;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+header {
+  margin: auto;
+  padding-top: 50px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo img {
+  width: 122px;
+}
+.twoArrows img {
+  width: 90px;
+}
+.logoPart {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.logoPart img {
+  width: 600px;
+}
+.menu {
+  padding-top: 220px;
+  display: flex;
+  justify-content: center;
+}
+.menuContent {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  width: 85%;
+}
+.menuElements {
+  background-color: #2a2a30;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 10px solid #ffffff;
+  border-radius: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 30px 50px;
+  filter: drop-shadow(-20px 50px 30px #000000);
+  box-shadow: -5px 10px 15px 5px #000000 inset;
+}
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text,
+.arrow, 
+.arrow img {
+  background-color: #2a2a30;
+}
+.arrow img {
+  height: 40px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    gap: 70px;
+    padding-top: 180px;
+    padding-bottom: 115px;
+}
+@media screen  and (max-width: 640px) {
+  .logo img {
+    width: 97px;
+  }
+  .twoArrows img {
+    width: 62px;
+  }
+  .menu {
+    padding-top: 100px;
+  }
+  .menuElements {
+    font-size: 30px;
+    border:  6px solid #ffffff;
+    filter: drop-shadow(-10px 25px 15px #000000);
+    box-shadow: -3px 5px 10px 5px #000000 inset;
+    padding: 10px 30px;
+    border-radius: 15px;
+  }
+  .arrow img {
+    width: 18px;
+  }
+  .socialIcons {
+    width: 30px;
+  }
+  .arrow {
+    padding-top: 20px;
+  }
+  .logoPart img {
+    width: 300px;
+  }
+}
+/* 640px max  */
