@@ -11,10 +11,10 @@ header {
   justify-content: space-between;
 }
 .logo img {
-  width: 122px;
+  width: 140px;
 }
 .twoArrows img {
-  width: 90px;
+  width: 110px;
 }
 .logoPart {
   padding-top: 100px;
@@ -22,7 +22,7 @@ header {
   justify-content: center;
 }
 .logoPart img {
-  width: 600px;
+  width: 620px;
 }
 .menu {
   padding-top: 220px;
@@ -89,10 +89,10 @@ footer {
 }
 @media screen and (max-width: 640px) {
   .logo img {
-    width: 97px;
+    width: 110px;
   }
   .twoArrows img {
-    width: 62px;
+    width: 72px;
   }
   .menu {
     padding-top: 100px;
@@ -116,7 +116,7 @@ footer {
     padding-top: 20px;
   }
   .logoPart img {
-    width: 300px;
+    width: 310px;
   }
   footer {
     gap: 20px;
