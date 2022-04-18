@@ -54,24 +54,40 @@ header {
   justify-content: center;
 }
 .text,
-.arrow, 
+.arrow,
 .arrow img {
   background-color: #2a2a30;
 }
 .arrow img {
-  height: 40px;
+  width: 60px;
+  padding-top: 15px;
 }
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin: auto;
-    gap: 70px;
-    padding-top: 180px;
-    padding-bottom: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  gap: 70px;
+  padding-top: 180px;
+  padding-bottom: 115px;
 }
-@media screen  and (max-width: 640px) {
+#insta {
+  width: 80px;
+}
+#facebook {
+  width: 50px;
+}
+#tiktok {
+  width: 75px;
+}
+#twitter {
+  width: 80px;
+}
+#pinterest {
+  width: 70px;
+}
+@media screen and (max-width: 640px) {
   .logo img {
     width: 97px;
   }
@@ -83,23 +99,42 @@ footer {
   }
   .menuElements {
     font-size: 30px;
-    border:  6px solid #ffffff;
+    border: 6px solid #ffffff;
     filter: drop-shadow(-10px 25px 15px #000000);
     box-shadow: -3px 5px 10px 5px #000000 inset;
     padding: 10px 30px;
     border-radius: 15px;
   }
   .arrow img {
-    width: 18px;
+    width: 30px;
+    padding-top: 0;
   }
   .socialIcons {
-    width: 30px;
+    width: 40px;
   }
   .arrow {
     padding-top: 20px;
   }
   .logoPart img {
     width: 300px;
+  }
+  footer {
+    gap: 20px;
+  }
+  #insta {
+    width: 55px;
+  }
+  #facebook {
+    width: 35px;
+  }
+  #tiktok {
+    width: 45px;
+  }
+  #twitter {
+    width: 50px;
+  }
+  #pinterest {
+    width: 45px;
   }
 }
 /* 640px max  */
